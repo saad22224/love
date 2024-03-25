@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+div{
+    color: red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+i{
+    font-size: 100px;
+    cursor: pointer;
+    animation: love linear infinite 0.5s;
+    text-align: center;
+}
+@media(max-width:767px) {
+    i{
+        font-size: 60px;
+    }
+}
+ @keyframes love{
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
